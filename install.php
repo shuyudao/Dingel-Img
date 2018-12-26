@@ -10,7 +10,6 @@ if (!$file) {
 		echo "<h2 align='center'>数据库连接失败 请检查信息是否正确</h2>";
 	}else{
 		// $creatku = 'CREATE DATABASE '.$dbname; //创建库  可删
-		mysql_query($creatku);
 		$sql_useku = 'use '.$dbname;
 		mysql_query($sql_useku);
 
