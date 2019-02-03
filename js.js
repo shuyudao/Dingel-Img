@@ -1,16 +1,4 @@
 window.onload = function () {
-	var ip = returnCitySN["cip"];
-	var ips = document.getElementById('ip');
-	ips.value = ip;
-
-	function setCookie(name,value)
-	{
-		var Days = 30;
-		var exp = new Date();
-		exp.setTime(exp.getTime() + Days*24*60*60*1000);
-		document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
-	}
-	setCookie("ip",ip);
 
 	var upd = document.getElementById('upd');
 	var uping = document.getElementById('uping');
@@ -50,7 +38,7 @@ window.onload = function () {
 	up.onmouseout = function(){
 		testPath();
 	}
-	console.log("Dingel v-0.8.2 by 术与道 2019");
+	console.log("Dingel v-0.8.2 by 术与道 http://imwj.top");
 	function testPath(){
 		timer = setInterval(function(){
 			if (up.value!='') {
