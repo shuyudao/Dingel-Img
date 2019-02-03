@@ -1,6 +1,6 @@
 window.onload = function () {
 	var ip = returnCitySN["cip"];
-	var ips = document.getElementById('ip');	
+	var ips = document.getElementById('ip');
 	ips.value = ip;
 
 	function setCookie(name,value)
@@ -71,5 +71,5 @@ window.onload = function () {
 			}
 		},600)
 	}
-}
 
+}
