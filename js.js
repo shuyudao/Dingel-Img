@@ -38,7 +38,7 @@ window.onload = function () {
 	up.onmouseout = function(){
 		testPath();
 	}
-	console.log("Dingel v-0.8.2 by 术与道 http://imwj.top");
+	console.log("Dingel v-0.8.2 by 术与道 2019");
 	function testPath(){
 		timer = setInterval(function(){
 			if (up.value!='') {
