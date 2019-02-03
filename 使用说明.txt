@@ -2,6 +2,7 @@
 
 安装前，请去config.php文件内修改数据库连接信息
 访问  域名/install.php  安装
+安装完成后删除install.php
 
 暂无后台
 版本 0.8.2
