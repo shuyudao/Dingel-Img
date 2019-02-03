@@ -5,7 +5,7 @@
 include 'config.php';
 error_reporting(0);
 date_default_timezone_set('PRC');
-$ip = $_COOKIE["ip"];
+$ip = 'null';
 $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);     // 获取文件后缀名
