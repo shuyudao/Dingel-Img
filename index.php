@@ -1,15 +1,14 @@
-<!--
-	by 术与道
-	v  0.8.2
-	框架 MDUI
--->
+<!-- '*':
+  date:2019
+  Copyright (c) 2019 by 术与道.
+  All Rights Reserved. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Dingel图床 - v0.8.2</title>
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.2/css/mdui.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.2/js/mdui.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/mdui/0.4.2/css/mdui.min.css">
+	<script src="https://cdn.bootcss.com/mdui/0.4.2/js/mdui.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
 	<script type="text/javascript" src="js.js"></script>
@@ -25,7 +24,6 @@
 			<form>
     			<input id="up" type="file" name="file">
     			<input id="upd" style="width: 100px;background:#fff;color: #656565;border:1px solid #fff;height: 36px;line-height: 36px;" id="btn" type="button" value="上传">
-    			<input style="display: none;" id="ip" type="text" name="ip">
 			</form>
 		</div>
 		<div id="path"></div>
