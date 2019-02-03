@@ -14,7 +14,7 @@
 	<script type="text/javascript" src="js.js"></script>
 </head>
 <body style="background-image: url(https://api.yum6.cn/bingimg/bingimg.php);">
-	<img id="uping" src="http://img.lanrentuku.com/img/allimg/1212/5-121204193R5-50.gif" alt="">
+	<img id="uping" src="./load.gif" alt="">
 	<div id="main" class="mdui-container-fluid">
 		<div id="body" class="mdui-valign">
 			<h1 class="mdui-center" id="title">Dingel图床</h1>
